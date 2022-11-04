@@ -2,6 +2,7 @@ import random
 
 from dino_runner.utils.constants import SCREEN_WIDTH, CLOUD
 
+
 class Cloud:
     def __init__(self):
         self.x = SCREEN_WIDTH + random.randint(800, 1000)
