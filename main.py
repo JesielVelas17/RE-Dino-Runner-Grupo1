@@ -6,3 +6,4 @@ if __name__ == "__main__":
     print("hello there...")
     print("Proyecto final Jala")
     print("Adam Jesiel Velasco Villanueva")
+    print("Muchas Gracias por todo lo enseñado")

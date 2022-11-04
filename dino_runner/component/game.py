@@ -42,10 +42,10 @@ class Game:
 
     def score(self):
         self.points += 1
-        if self.points % 20 == 0:
-            self.game_speed += 0.5
-        elif self.points % 1000 == 50:
-            self.game_speed = 20
+        if self.points % 100 == 0:
+            self.game_speed += 2
+        elif self.points % 1000 == 40:
+            self.game_speed = 30
         score_element, score_element_rec = text_utils.get_score_element(self.points)
         self.screen.blit(score_element, score_element_rec)
         self.player.check_invincibility(self.screen)
